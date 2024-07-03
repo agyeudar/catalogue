@@ -52,8 +52,8 @@ environment{
                     
                         sh """
                         docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
-                        docker tag catalogue:${VERSION}  muralisocial123/catalogue:${VERSION}
-                        docker push muralisocial123/catalogue:${VERSION}
+                        docker tag catalogue:${VERSION}  agyeudar/catalogue:${VERSION}
+                        docker push agyeudar/catalogue:${VERSION}
                         """
                     
                 }

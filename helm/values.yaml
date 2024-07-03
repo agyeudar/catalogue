@@ -1,0 +1,5 @@
+deployment:
+  replicaCount: 2
+  imageVersion: 1
+service:
+  port: 3000
